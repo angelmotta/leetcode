@@ -2,6 +2,7 @@
 from typing import List
 
 # Time O(n * m) where `n` is list's length strs and `m` is the average length of each word in the list strs
+# Space O(n) where n is the lenght of strs
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         mapGroupAnagrams = {}
